@@ -1,0 +1,293 @@
+PODS:
+  - AppAuth (1.5.0):
+    - AppAuth/Core (= 1.5.0)
+    - AppAuth/ExternalUserAgent (= 1.5.0)
+  - AppAuth/Core (1.5.0)
+  - AppAuth/ExternalUserAgent (1.5.0):
+    - AppAuth/Core
+  - Braintree/ApplePay (5.3.2):
+    - Braintree/Core
+  - Braintree/Card (5.3.2):
+    - Braintree/Core
+  - Braintree/Core (5.3.2)
+  - Braintree/PaymentFlow (5.3.2):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - Braintree/PayPal (5.3.2):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - Braintree/PayPalDataCollector (5.3.2)
+  - Braintree/ThreeDSecure (5.3.2):
+    - Braintree/Card
+    - Braintree/PaymentFlow
+  - Braintree/UnionPay (5.3.2):
+    - Braintree/Card
+  - Braintree/Venmo (5.3.2):
+    - Braintree/Core
+  - BraintreeDropIn (9.0.2):
+    - Braintree/ApplePay (>= 5.3.2, ~> 5.3)
+    - Braintree/Card (>= 5.3.2, ~> 5.3)
+    - Braintree/Core (>= 5.3.2, ~> 5.3)
+    - Braintree/PayPal (>= 5.3.2, ~> 5.3)
+    - Braintree/ThreeDSecure (>= 5.3.2, ~> 5.3)
+    - Braintree/UnionPay (>= 5.3.2, ~> 5.3)
+    - Braintree/Venmo (>= 5.3.2, ~> 5.3)
+  - FBAEMKit (12.3.2):
+    - FBSDKCoreKit_Basics (= 12.3.2)
+  - FBSDKCoreKit (12.3.2):
+    - FBAEMKit (= 12.3.2)
+    - FBSDKCoreKit_Basics (= 12.3.2)
+  - FBSDKCoreKit_Basics (12.3.2)
+  - FBSDKLoginKit (12.3.2):
+    - FBSDKCoreKit (= 12.3.2)
+  - Firebase/CoreOnly (8.15.0):
+    - FirebaseCore (= 8.15.0)
+  - Firebase/Messaging (8.15.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 8.15.0)
+  - firebase_core (1.17.1):
+    - Firebase/CoreOnly (= 8.15.0)
+    - Flutter
+  - firebase_messaging (11.2.5):
+    - Firebase/Messaging (= 8.15.0)
+    - firebase_core
+    - Flutter
+  - FirebaseCore (8.15.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (8.15.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseMessaging (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Reachability (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - Flutter (1.0.0)
+  - flutter_braintree (1.0.0):
+    - Braintree/ApplePay (~> 5.3.2)
+    - Braintree/PayPal (~> 5.3.2)
+    - BraintreeDropIn (= 9.0.2)
+    - Flutter
+  - flutter_inappwebview (0.0.1):
+    - Flutter
+    - flutter_inappwebview/Core (= 0.0.1)
+    - OrderedSet (~> 5.0)
+  - flutter_inappwebview/Core (0.0.1):
+    - Flutter
+    - OrderedSet (~> 5.0)
+  - flutter_local_notifications (0.0.1):
+    - Flutter
+  - flutter_login_facebook (1.2.0):
+    - FBSDKLoginKit (~> 12.0)
+    - Flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - geocoding (1.0.5):
+    - Flutter
+  - geolocator_apple (1.2.0):
+    - Flutter
+  - google_maps_flutter (0.0.1):
+    - Flutter
+    - GoogleMaps
+  - google_sign_in (0.0.1):
+    - Flutter
+    - GoogleSignIn (~> 5.0)
+  - GoogleDataTransport (9.1.4):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleMaps (6.2.1):
+    - GoogleMaps/Maps (= 6.2.1)
+  - GoogleMaps/Base (6.2.1)
+  - GoogleMaps/Maps (6.2.1):
+    - GoogleMaps/Base
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.3.0):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.2)
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - OrderedSet (5.0.0)
+  - path_provider_ios (0.0.1):
+    - Flutter
+  - "permission_handler (5.1.0+2)":
+    - Flutter
+  - PromisesObjC (2.1.1)
+  - shared_preferences_ios (0.0.1):
+    - Flutter
+  - sqflite (0.0.2):
+    - Flutter
+    - FMDB (>= 2.7.5)
+  - url_launcher_ios (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - firebase_messaging (from `.symlinks/plugins/firebase_messaging/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_braintree (from `.symlinks/plugins/flutter_braintree/ios`)
+  - flutter_inappwebview (from `.symlinks/plugins/flutter_inappwebview/ios`)
+  - flutter_local_notifications (from `.symlinks/plugins/flutter_local_notifications/ios`)
+  - flutter_login_facebook (from `.symlinks/plugins/flutter_login_facebook/ios`)
+  - geocoding (from `.symlinks/plugins/geocoding/ios`)
+  - geolocator_apple (from `.symlinks/plugins/geolocator_apple/ios`)
+  - google_maps_flutter (from `.symlinks/plugins/google_maps_flutter/ios`)
+  - google_sign_in (from `.symlinks/plugins/google_sign_in/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - path_provider_ios (from `.symlinks/plugins/path_provider_ios/ios`)
+  - permission_handler (from `.symlinks/plugins/permission_handler/ios`)
+  - shared_preferences_ios (from `.symlinks/plugins/shared_preferences_ios/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - url_launcher_ios (from `.symlinks/plugins/url_launcher_ios/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - Braintree
+    - BraintreeDropIn
+    - FBAEMKit
+    - FBSDKCoreKit
+    - FBSDKCoreKit_Basics
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - FMDB
+    - GoogleDataTransport
+    - GoogleMaps
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - nanopb
+    - OrderedSet
+    - PromisesObjC
+
+EXTERNAL SOURCES:
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  firebase_messaging:
+    :path: ".symlinks/plugins/firebase_messaging/ios"
+  Flutter:
+    :path: Flutter
+  flutter_braintree:
+    :path: ".symlinks/plugins/flutter_braintree/ios"
+  flutter_inappwebview:
+    :path: ".symlinks/plugins/flutter_inappwebview/ios"
+  flutter_local_notifications:
+    :path: ".symlinks/plugins/flutter_local_notifications/ios"
+  flutter_login_facebook:
+    :path: ".symlinks/plugins/flutter_login_facebook/ios"
+  geocoding:
+    :path: ".symlinks/plugins/geocoding/ios"
+  geolocator_apple:
+    :path: ".symlinks/plugins/geolocator_apple/ios"
+  google_maps_flutter:
+    :path: ".symlinks/plugins/google_maps_flutter/ios"
+  google_sign_in:
+    :path: ".symlinks/plugins/google_sign_in/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  path_provider_ios:
+    :path: ".symlinks/plugins/path_provider_ios/ios"
+  permission_handler:
+    :path: ".symlinks/plugins/permission_handler/ios"
+  shared_preferences_ios:
+    :path: ".symlinks/plugins/shared_preferences_ios/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  url_launcher_ios:
+    :path: ".symlinks/plugins/url_launcher_ios/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  AppAuth: 80317d99ac7ff2801a2f18ff86b48cd315ed465d
+  Braintree: d9314d1a97acda74b77e40be5db6aa3e655c6539
+  BraintreeDropIn: 3e666d341e34efb0b5e18221eacd76db469bdab8
+  FBAEMKit: 955ca52eba8219c20f90774e8c6ff8bc7b3192a3
+  FBSDKCoreKit: 678f64eda3f0ff25c189c2ebbfe87b1d96a85a6d
+  FBSDKCoreKit_Basics: 6bee7c1f0932432901781203fa5e587ec5099148
+  FBSDKLoginKit: 56d55e23fe66a6db045826190b0b4dbc0e1ca0a0
+  Firebase: 5f8193dff4b5b7c5d5ef72ae54bb76c08e2b841d
+  firebase_core: 318de541b0e61d3f24262982a3f0b54afe72439b
+  firebase_messaging: f68d714c4abecb15accd21d44765371b0d2ec02a
+  FirebaseCore: 5743c5785c074a794d35f2fff7ecc254a91e08b1
+  FirebaseCoreDiagnostics: 92e07a649aeb66352b319d43bdd2ee3942af84cb
+  FirebaseInstallations: 40bd9054049b2eae9a2c38ef1c3dd213df3605cd
+  FirebaseMessaging: 5e5118a2383b3531e730d974680954c679ca0a13
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_braintree: fe1bf2f5e99010e293af6986bc55876362bb28dd
+  flutter_inappwebview: bfd58618f49dc62f2676de690fc6dcda1d6c3721
+  flutter_local_notifications: 0c0b1ae97e741e1521e4c1629a459d04b9aec743
+  flutter_login_facebook: 1dba148a793800ab2407565749a39f3f25b3a03d
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  geocoding: 32cfcdb16d38d907caaba65e2e42ad10d38bee58
+  geolocator_apple: b741765c55dc21950e3e106e8b3584e55cf81ce5
+  google_maps_flutter: c59fc576c0d0c7f4dc4bd63832c862d22d5a7c6d
+  google_sign_in: c5cecea71f3be43282263550556e311c4cc03582
+  GoogleDataTransport: 5fffe35792f8b96ec8d6775f5eccd83c998d5a3b
+  GoogleMaps: 20d7b12be49a14287f797e88e0e31bc4156aaeb4
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GTMAppAuth: 4d8f864896f3646f0c33baf38a28362f4c601e15
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  image_picker_ios: b786a5dcf033a8336a657191401bfdf12017dabb
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  OrderedSet: aaeb196f7fef5a9edf55d89760da9176ad40b93c
+  path_provider_ios: 14f3d2fd28c4fdb42f44e0f751d12861c43cee02
+  permission_handler: ccb20a9fad0ee9b1314a52b70b76b473c5f8dab0
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  shared_preferences_ios: 548a61f8053b9b8a49ac19c1ffbc8b92c50d68ad
+  sqflite: 6d358c025f5b867b29ed92fc697fd34924e11904
+  url_launcher_ios: 839c58cdb4279282219f5e248c3321761ff3c4de
+  webview_flutter_wkwebview: b7e70ef1ddded7e69c796c7390ee74180182971f
+
+PODFILE CHECKSUM: cc5d71aa91203b803a68be09b9446d3c6d52df3d
+
+COCOAPODS: 1.11.2
